@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0px 0px 2px 0px  rgba(110, 107, 107, 0.904);
+    position: sticky;
+}
+#logo>a>img{
+    padding-left: 100px;
+}
+#Services{
+    display: flex;
+    /* padding-right: 125px; */
+}
+#Services>li{
+    list-style-type: none;
+}
+#Services>li>a{
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: lighter;
+}
+#icon{
+    margin-right: 100px;
+}
+#icon>i{
+    padding: 10px;
+    padding: 7px;
+    font-size: 20px;
+}
+#slider{
+    background-color: #f6f3f2 ;
+}
+#slider>div>img{
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#btn1>button{
+    position: absolute;
+    top: 450px;
+    left: 161px;
+    width: 190px;
+    height: 42px;
+    font-size: 14px;
+    color: white;
+    background-color: #002c5f;
+    border: none;
+}
+#btn2>button{
+    position: absolute;
+    top: 503px;
+    left: 161px;
+    width: 190px;
+    height: 42px;
+    font-size: 14px;
+    color: white;
+    background-color: #002c5f;
+    border: none;
+}
+#title1>div>h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+#product{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#product>a{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    font-size: 17px;
+}
+#title2>div{
+    text-align: center;
+}
+#title2>div>img{
+    width: 60%;
+}
+#AvailableCars{
+    display: flex;
+    margin: auto;
+    width: 65%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#AvailableCars>div>a{
+    text-decoration: none;
+    color:#002c5f ;
+}
+.fa-greater-than{
+    color: #002c5f;   
+    font-size: 15px;
+    padding-left: 4px;
+}
+#AvailableCars>div>p{
+    display: block;
+    text-align: left;
+   color: #767676;
+    margin: 10px;
+}
+#ServiceButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#ServiceButton>button{
+    margin: 20px;
+    width: 250px;
+    height: 45px;
+    background-color: #767676;
+    border: none;
+    color: white;
+}
+
+.Heading>div{
+    background-color: #002c5f;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-bottom: 20px;
+}
+.Heading>div>div>h3{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Heading>div>div>h1{
+    color: white;
+    font-size: 32px;
+
+}
+#Brand{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+#Brand>div{
+    width: 30%;
+    text-align: left;
+}
+.Image{
+    text-align: center;
+}
+.Title{
+    padding-left: 20px;
+}
+.Title>a{
+    text-decoration: none;
+    color: #002c5f;
+    font-size: 15px;
+}
+.Title>a>p{
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#section-second>a>img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+#KnowMore{
+    text-align: center;
+}
+#KnowMore>button{
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: #002c5f;
+    border: none;
+}
+#Heading{
+    padding-top: 50px;
+}
+#Heading>div{
+    background-color: #002c5f;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-bottom: 20px;
+}
+#Heading>div>div>h3{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Heading>div>div>h1{
+    color: white;
+    font-size: 32px;
+}
+
+#ADVCARD{
+    padding-top: 45px;
+}
+.card1{
+    display: flex;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 13px;
+    background-color: aqua;
+}
+#card1>a:hover{
+    display: block;
+}
+.card1>img{
+    width: 37%;
+    height: 350px;
+}
+#fotter1{
+    background-color:cornflowerblue;
+    padding: 77px;
+    margin-top: 6px;
+}
+
+#fotter1>#footmain{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+#footdiv1>h2{
+    padding-bottom: 19px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+#footdiv1>li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+#footdiv1>li>a{
+    text-decoration: none;
+    color: white;
+}
+#footdiv2{
+    padding-right: 95px;
+}
+#footdiv2>h2{
+    padding-bottom: 19px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+#footdiv2>li{
+    list-style-type: none;
+}
+#footdiv2>li>a{
+    text-decoration: none;
+    color: white;
+}
+#footdiv3{
+    width: 55%;
+}
+#footdiv3>h2{
+    padding-bottom: 19px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+#footdiv3>p{
+    padding-bottom: 20px;
+    color: white;
+}
+#footdiv3>div>input{
+    width: 280px;
+    height: 25px;
+}
+#footdiv3>div>button{
+    height: 29px;
+    width: 109px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 11px;   
+}
+#footdiv3>div>button:hover{
+    height: 29px;
+    width: 109px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 11px; 
+}
+#footdiv3>div>i{
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: -16px;
+}
